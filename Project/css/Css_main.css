@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Roboto|Satisfy');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.contain {
+    background-image: url("images/background/main.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h3{
+	position: absolute;
+	font-size: 52px;
+	font-weight: normal;
+    z-index: 2;
+}
+.some {
+    position: absolute;
+    font-size: 29px;
+    margin-top: 8vh;
+    z-index: 1;
+}
+.Shop {
+    color:#fff;
+    position: absolute;
+    top: 65%;
+    padding: 10px 10px;
+    background-color:black;
+    opacity: 0.5; 
+    right: 45%;
+    border:1px solid #fff;
+}
+.title {
+    overflow: hidden;
+    margin: 40px 10px;
+}
+.title:before, .title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    border: solid #FFF;
+    border-width: 0 50px
+}
+.title:before {
+  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает слева от текста
+  */
+  margin-left: -63%;
+}
+.title:after {
+  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает справа от текста
+  */
+  margin-right: -100%;
+}
+.title p{
+	display: inline;
+	font-size: 30px;
+	font-family: italic;
+}
+.con1 {
+    height: 50vh;
+    margin: 0.5rem;
+    width: 22vw;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.con1 .titles{
+	background-color: #fff;
+	width: 100%;
+	font-size: 13pt;
+}
+.con1 img {
+    margin-top:10vh;
+    margin-left: 7vw;
+    width: 50%;
+    height: 50%;
+}
+.con1 .price {
+    font-size: 18pt;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.titles a{
+	text-decoration: none;
+	color: black;
+}
+.con1 .titles {
+    background-color: #fff;
+    width: 100%;
+    font-size: 17pt;
+    text-align: center;
+}
+section button {
+    margin: 0vh 46vw;
+    width: 8%;
+    height: 5%;
+    padding: 10px 10px 20px 10px;
+    background: #242A35;
+    color: white;
+}
+.blog {
+    width: 100vw;
+    height: 80vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background/field4.jpg);
+    background-size: cover;
+}
+.read_blog {
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+}
+.blog img {
+    width: 100vw;
+    height: 80vh;
+}
+.back_blog {
+    height: 59vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #242A35;
+    color: white;
+}
+p.text_blog {
+    position: absolute;
+}
+p.autor {
+    position: absolute;
+    margin-top: 5vh;
+}
+.next, .pref{ 
+    cursor: pointer;
+    position: absolute;
+    top: 288vh;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.next:hover,.pref:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s; 
+}
+@-webkit-keyframes fade{
+    from{opacity: 0.4}
+    to{opacity:1}
+}
+@keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}

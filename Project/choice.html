@@ -1,0 +1,104 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/css_choice.css">
+<link rel="stylesheet" type="text/css" href="css/nav&footer.css">
+<link rel="stylesheet" type="text/css" href="css/css_tea.css">
+</head>
+<body>
+<div class="contain">
+	<header>
+		<nav>
+			<a href="">Home</a>
+			<a href="" class="checking">Teas</a>
+			<a href="">Contact</a>
+			<a href="Adding.html">Add</a>
+			<p class="logo">Flora's tea</p>
+			<a href="" class="login">Login in</a>
+			<a href="" class="sign">Sign up</a>
+		</nav>
+	</header>
+		<p class="shop_your">
+			Shop Your Favorite Tea
+		</p>
+</div>
+<section>
+<div class="descript">
+		<div class="coordinate">
+		<a href="">Home</a>/
+		<a href="">Teas</a>/Hibiscus Flower
+		<a href="choice.html" class="prev"> < Prev</a>|
+		<a href="choice.html">Next > </a>
+		</div>
+	</div>
+	<div class="descript_2">
+<table>
+	<tr>
+	<td colspan="2">
+	<img src="css/images/package/package4.jpg" alt="bmw5" id="big">
+	</td>
+	<td rowspan="2">
+		<br>
+		<h5>Cederberg chai</h5>
+		<p><strong>$7.00</strong></p>
+		<p>Description</p>
+		<a href="">Read more</a>
+		<br>
+		<p>Size</p>
+		<select>
+  			<option value="volvo">125Gr</option>
+ 			<option value="saab">200Gr</option>
+  			<option value="opel">300Gr</option>
+		</select>
+		<p>Quantity</p>
+		<div class="input-group quantity_goods">
+  			<input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+		</div>
+		<br>
+		<button class="Add">Add to Card</button>
+	</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="css/images/package/package4.jpg" width="50vw" height="50vh" class="small" onclick = "imageClick('css/images/package/package4.jpg')">
+			<img src="css/images/teas/tea4.jpg" width="50vw" height="50vh" class="small" onclick = "imageClick('css/images/teas/tea4.jpg')">
+		</td>
+	</tr>
+	
+</table>
+</div>
+<footer>
+<div><p class="get_know">Come to Know <br>Flora's Tea Better</p>
+</div>
+<div class="Stores">
+	<p class="text">Our Stores</p>
+	<hr>
+	<p class="shop1">
+		500 Terry Francois Street<br> 
+		San Francisco,CA 94158<br>
+		Tel: 123-456-7890
+	</p>
+	<p class="shop2">
+		500 Terry Francois Street<br> 
+		San Francisco,CA 94158<br>
+		Tel: 123-456-7890
+	</p>
+</div>
+<div class="hourse">
+	<p class="text">Openning Hourse</p>
+	<hr>
+	<p class="Hourse">
+		Mon - Fri: 8am - 8pm<br>
+		​​Saturday: 9am - 9pm<br>
+		​​Sunday: 9am - 10pm
+	</p>
+</section> 
+</footer>
+<script defer>
+	function imageClick(image){
+	let currentImage = document.querySelector("#big");
+	let imageName = image;
+	currentImage.src = imageName;
+}
+</script>
+</body>
+</html>

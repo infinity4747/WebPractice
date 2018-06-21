@@ -1,0 +1,27 @@
+.contain {
+    height: 70vh;
+    width: 100vw;
+    background: url("images/background/add4.jpg");
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.shop_your {
+    position: absolute;
+    font-family: "italic";
+    font-size: 40px;
+}
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:15vh 0px; 
+}
+label,input{
+	font-size: 20px;
+}
+.click{
+	color: yellow;
+}

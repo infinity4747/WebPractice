@@ -1,0 +1,36 @@
+.contain {
+    height: 70vh;
+    width: 100vw;
+    background: url("images/background/tea_main.jpg");
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.shop_your {
+    position: absolute;
+    font-family: "italic";
+    font-size: 40px;
+}
+table #big {
+    margin: 10vh 3vw 0px 0vw;
+    width: 30vw;
+    height: 60vh;
+}
+
+.main_main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev {
+    padding-left: 30vw;
+}
+.descript_2,.descript {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

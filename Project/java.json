@@ -1,0 +1,84 @@
+[{
+		"id" : 1,
+		"title" : "CEDERBERG CHAI",
+		"price" : 12.00,
+		"collection":"herbal tea",
+		"size":[125,200],
+		"image" :"css/images/teas/tea8.jpg"
+}
+,
+{
+		"id" : 2,
+		"title" : "GRAIN OF TRUTH",
+		"price" : 15.00,
+		"collection":"herbal tea",
+		"size":[125,200],
+		"image" : "css/images/teas/tea1.jpg"
+}
+
+,
+{
+		"id" : 3,
+		"title" : "ALL THE FLOWERS",
+		"price" : 17.00,
+		"collection":"herbal tea",
+		"size":[125,200,300],
+		"image" : "css/images/teas/tea9.jpg"
+}
+
+,
+{
+		"id" : 4,
+		"title" : "BERRY POMP",
+		"price" : 20.00,
+		"collection":"special collection",
+		"size":[125],
+		"image" : "css/images/teas/tea3.jpg"
+}
+,
+{
+		"id" : 5,
+		"title" : "SWEET LULLABY",
+		"price" : 18.00,
+		"collection":"special collection",
+		"size":[125],
+		"image" : "css/images/teas/tea10.jpg"
+}
+,
+{
+		"id" : 6,
+		"title" : "HARIMAN CLASSIC CHAI",
+		"price" : 12.50,
+		"collection":"herbal tea",
+		"size":[125,200,300],
+		"image" : "css/images/package/tea11.jpg"
+}
+,
+{
+		"id" : 7,
+		"title" : "Hibiscus Flower",
+		"price" : 11.50,
+		"collection":"herbal tea",
+		"size":[125,200,300],
+		"image" : "css/images/teas//tea6.jpg"
+}
+,
+{
+		"id" : 8,
+		"title" : "AKAI ITO",
+		"price" : 16.25,
+		"collection":"special collection",
+		"size":[125],
+		"image" : "css/images/teas/tea12.jpg"
+}
+,
+{
+		"id" : 9,
+		"title" : "DEEP ASANA",
+		"price" : 17.25,
+		"collection":"herbal tea",
+		"size":[125,200,300],
+		"image" : "css/images/teas/tea8.jpg"
+}
+]
+}

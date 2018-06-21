@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Roboto|Satisfy');
+body{
+    padding: 0;
+    margin: 0;
+}
+.contain {
+    height: 70vh;
+    background: url("images/background/tea_main2.jpg");
+    display: flex;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.shop_your {
+    position: absolute;
+    font-family: "italic";
+    font-size: 40px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main{
+    display: flex;
+}
+p#shop {
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+}
+.descript {
+    display: inline;
+    margin-top: 19vh;
+}
+.main_main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev {
+    padding-left: 30vw;
+}
+.descript_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0vh 10px 30vh 10px;
+}
+table .big {
+    margin: 10vh 3vw 0px 0vw;
+    width: 30vw;
+    height: 50vh;
+}
+.small {
+    width: 5vw;
+    margin-bottom: 35vh;
+    height: 5vh;
+}
+h5 {
+    font-size: 25px;
+    font-family: 'Bad Script', cursive;
+}
+.con1{
+    width: 350px;
+    height: 400px;
+    margin-top:40px; 
+}
+button.Add {
+    background: #242A35;
+    color: white;
+    width: 17vw;
+    height: 6vh;
+}
+p.c{
+    font-size:20px; 
+    font-family: 'Bad Script', cursive;
+}
+#contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.con1 .titles {
+    background-color: #fff;
+    width: 100%;
+    font-size: 17pt;
+    margin-left: 30px;
+}
+.con1 img {
+    margin-top: 0;
+    margin-left: 7vw;
+    width: 75%;
+    height: 75%;
+}
+.con1 .price {
+    font-size: 13pt;
+    margin-top: 10px;
+    margin-left: 8vw;
+    font-weight: bold;
+    text-align: center;
+}
+.titles a {
+    text-decoration: none;
+    color: black;
+    margin-left: 9vw;
+}
+.con1 .titles {
+    background-color: #fff;
+    width: 100%;
+    font-size: 17pt;
+    text-align: center;
+}
+.description hr {
+    width: 15vw;
+    margin: 0px 0px 20px 0px;
+}
+.description{
+    width: 20vw;
+    margin-left: 4vw;
+}
+.main_main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h6 {
+    font-size: 20px;
+}
+.total_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Return {
+    width: 50%;
+}
+.Product_Info {
+    padding: 28px;
+    width: 40%;
+}
+.Shipping_info {
+    width: 50%;
+}
+input[type=text], select {
+    width: 26vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 50vw;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+textarea {
+    width: 50vw;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #242A35;
+    padding: 20px;
+}
+button{
+    margin-bottom: 10px;
+    background:none;
+    text-decoration: none;
+
+}

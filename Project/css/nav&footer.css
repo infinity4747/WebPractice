@@ -1,0 +1,68 @@
+nav {
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    border: 1px solid #fff;
+    position: fixed;
+    top: 0;
+    background-color: #242A35;
+    opacity: 0.5;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border: 1px solid white;
+}
+
+nav a {
+    font-size: 10pt;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 3px;
+    padding: 15px 8px;
+    position: relative;
+}
+.login {
+    margin-left: 42px;
+}
+
+p.logo {
+    padding: 9px 0px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    margin: auto;
+}
+footer{
+    display: inline-flex;
+    flex: 1 7%;
+    background-color: #E6E7EA;
+    color:#242A35;
+    text-align: center;
+    width: 100vw;
+    padding: 10px 10px;
+}
+p.get_know {
+    font-size: 32px;
+    padding: 0px 0px 0px 70px;
+}
+.Stores {
+    margin: 0px 20vw;
+}
+nav a:hover{
+    color:yellow;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.total_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
